@@ -1,0 +1,15 @@
+{
+    "name": "seconila/tire-code-parser",
+    "description": "Parses tire code strings into separate components",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "": "src"
+        }
+    }
+}
