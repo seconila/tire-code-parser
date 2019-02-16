@@ -109,7 +109,8 @@ class Parser
     }
 
     /**
-     * The speed symbol is made up of a single letter - Q, R, S, T, H, V, W, Y.
+     * The speed symbol is made up of a single letter optionally enclosed
+     * in brackets - Q, R, S, T, H, V, W, Y, (Y).
      * @return mixed
      */
     public function getSpeedSymbol()
